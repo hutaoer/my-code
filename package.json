@@ -1,0 +1,9 @@
+{
+  "name": "my-code",
+  "description": "recode the codes I usually use in my daily work",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "*.x"
+  }
+}
