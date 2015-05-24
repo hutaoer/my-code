@@ -1,0 +1,31 @@
+.module1 .anim-wrap {
+  width: 300px;
+  height: 50px;
+}
+.module1 .anim-div {
+  width: 10px;
+  height: 50px;
+  background-color: #ccc;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+.module1 .move {
+  width: 300px;
+}
+.module2 .anim-wrap {
+  width: 300px;
+  height: 50px;
+  position: relative;
+}
+.module2 .anim-div {
+  position: absolute;
+  right: 0;
+  width: 10px;
+  height: 50px;
+  background-color: #ccc;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+.module2 .move {
+  width: 300px;
+}
