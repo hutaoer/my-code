@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>transition动画，宽度从0到100%，动画从右至左实现</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../src/reset.css">
+    <link rel="stylesheet" type="text/css" href="../src/p/transition_anim_r2l.css">
+    <script type="text/javascript" src="../src/jquery-2.1.4.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="module1">
+            <h1>正常，动画从左至右的动画，宽度10px到100px</h1>
+            <p class="desc"></p>
+            <div class="anim-wrap">
+                <div class="anim-div" id="J_AnimDiv1"></div>
+            </div>
+            <a href="javascript:;" id="J_Module1RunBtn">run</a>
+        </div>
+
+        <div class="module2">
+            <h1>正常，动画从右至左的动画，宽度10px到300px</h1>
+            <p class="desc">这里，可以通过绝对定位的方法去实现，在动画元素外面包一层容器即可。</p>
+            <div class="anim-wrap">
+                <div class="anim-div" id="J_AnimDiv2"></div>
+            </div>
+            <a href="javascript:;" id="J_Module2RunBtn">run</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="../src/p/transition_anim_r2l.js"></script>
+</body>
+</html>
