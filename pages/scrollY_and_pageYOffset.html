@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>scrollY和pageYOffset</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../src/reset.css">
+    <script type="text/javascript" src="../src/jquery-2.1.4.js"></script>
+    <style type="text/css">
+        .main {
+            width: 100%;
+            height: 1000px;
+            background: #ccc;
+        }
+        .info {
+            position: fixed;
+            top: 0;
+            left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+    <div class="info">  
+        <input type="text" id="J_ScrollY_Val" value="0">
+        <input type="text" id="J_PageYOffset_Val" value="0">
+    </div>
+    
+    <script type="text/javascript">
+        var win = window;
+        $(win).on('scroll', function() {
+            $('#J_ScrollY_Val').val(win.scrollY)
+            $('#J_PageYOffset_Val').val(win.pageYOffset);
+        })
+        
+
+    </script>
+</body>
+</html>
