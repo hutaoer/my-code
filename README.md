@@ -15,4 +15,4 @@ My commen useful codes
 * [window.scrollY & window.pageYOffset](https://github.com/hutaoer/my-code/blob/master/docs/scrollY_and_pageYOffset.md)
 
 ## git
-* [编辑local config](https://github.com/hutaoer/my-code/blob/master/docs/git_local_config.md)
+* [git编辑local config](https://github.com/hutaoer/my-code/blob/master/docs/git_local_config.md)
