@@ -16,8 +16,15 @@ My commen useful codes
 * [window.scrollY & window.pageYOffset](https://github.com/hutaoer/my-code/blob/master/notes/scrollY_and_pageYOffset.md)
 * [window.innerHeight](https://github.com/hutaoer/my-code/blob/master/notes/js_innerHeight.md)
 
+### TODO
+* [h5页面键盘呼出bug]()
+
 ## git
 * [git编辑local config](https://github.com/hutaoer/my-code/blob/master/notes/git_local_config.md)
+* [空提交](https://github.com/hutaoer/my-code/blob/master/notes/git_empty_commit.md)
 
 ## mac
 * [mac被注入分析](https://github.com/hutaoer/my-code/blob/master/notes/mac_osx_bug.md)
+
+### TODO
+* [mac如何配置apache]()
