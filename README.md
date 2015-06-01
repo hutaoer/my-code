@@ -1,6 +1,6 @@
 # my-code
 
-My commen useful codes
+My commen useful codes and notes
 ## css codes
 
 
@@ -11,13 +11,14 @@ My commen useful codes
 * [transition动画，width从10px到100px，方向为从右至左](https://github.com/hutaoer/my-code/blob/master/pages/transition_anim_r2l.html)
 * [date日期格式化]()
 * [css加载原理](https://github.com/hutaoer/my-code/blob/master/notes/css_resoure_load.md)
+* [css设置水平居中](https://github.com/hutaoer/my-code/blob/master/notes/css_horizontally_center.md)
 
 ## javascript
 * [window.scrollY & window.pageYOffset](https://github.com/hutaoer/my-code/blob/master/notes/scrollY_and_pageYOffset.md)
 * [window.innerHeight](https://github.com/hutaoer/my-code/blob/master/notes/js_innerHeight.md)
 
 ### TODO
-* [h5页面键盘呼出问题]()
+* [h5页面键盘呼出问题](https://github.com/hutaoer/my-code/blob/master/notes/h5_keyboard_focus.md)
 
 ## git
 * [git编辑local config](https://github.com/hutaoer/my-code/blob/master/notes/git_local_config.md)
@@ -28,3 +29,7 @@ My commen useful codes
 
 ### TODO
 * [mac如何配置apache]()
+
+
+## editor
+* [sublime设置快捷键](http://www.zhugexiaojue.com/note/reindent-753.html)
