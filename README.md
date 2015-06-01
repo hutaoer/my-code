@@ -17,7 +17,7 @@ My commen useful codes
 * [window.innerHeight](https://github.com/hutaoer/my-code/blob/master/notes/js_innerHeight.md)
 
 ### TODO
-* [h5页面键盘呼出bug]()
+* [h5页面键盘呼出问题]()
 
 ## git
 * [git编辑local config](https://github.com/hutaoer/my-code/blob/master/notes/git_local_config.md)
