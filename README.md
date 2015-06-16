@@ -27,6 +27,9 @@ My commen useful codes and notes
 ## mac
 * [mac被注入分析](https://github.com/hutaoer/my-code/blob/master/notes/mac_osx_bug.md)
 
+## nginx
+* [常用命令](https://github.com/hutaoer/my-code/blob/master/notes/linux_normal_cmd.md)
+
 ### TODO
 * [mac如何配置apache]()
 
