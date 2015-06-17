@@ -9,6 +9,7 @@ My commen useful codes and notes
 
 ## css
 * [transition动画，width从10px到100px，方向为从右至左](https://github.com/hutaoer/my-code/blob/master/pages/transition_anim_r2l.html)
+* [css3实现涟漪的效果](https://github.com/hutaoer/my-code/blob/master/pages/css3_lianyi.html)
 * [date日期格式化]()
 * [css加载原理](https://github.com/hutaoer/my-code/blob/master/notes/css_resoure_load.md)
 * [css设置水平居中](https://github.com/hutaoer/my-code/blob/master/notes/css_horizontally_center.md)

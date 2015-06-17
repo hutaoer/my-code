@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+<style type="text/css">
+.animation { -webkit-animation: ripple 1s linear; }
+        @-webkit-keyframes ripple{
+                100% { opacity: 0; -webkit-transform: scale(2.5);}
+        }
+        .test {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #f8c;
+            animation: scaleout 1s ease-in-out infinite;
+          -webkit-animation: scaleout 1s ease-in-out infinite;
+        }
+@keyframes scaleout { 
+    0% {
+ transform: scale(1);
+}
+100% {
+ opacity: 0;
+ transform: scale(1.5);
+}
+}
+@-webkit-keyframes scaleout { 0% {
+ -webkit-transform: scale(1);
+}
+100% {
+ opacity: 0;
+ -webkit-transform: scale(1.5);
+}
+}
+</style>
+</head>
+<body>
+    <div class="test"></div>
+</body>
