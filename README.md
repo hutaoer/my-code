@@ -13,6 +13,7 @@ My commen useful codes and notes
 * [date日期格式化]()
 * [css加载原理](https://github.com/hutaoer/my-code/blob/master/notes/css_resoure_load.md)
 * [css设置水平居中](https://github.com/hutaoer/my-code/blob/master/notes/css_horizontally_center.md)
+* [media query语法](https://github.com/hutaoer/my-code/blob/master/notes/css_media_query.md)
 
 ## javascript
 * [window.scrollY & window.pageYOffset](https://github.com/hutaoer/my-code/blob/master/notes/scrollY_and_pageYOffset.md)
@@ -30,6 +31,14 @@ My commen useful codes and notes
 
 ## nginx
 * [常用命令](https://github.com/hutaoer/my-code/blob/master/notes/linux_normal_cmd.md)
+
+## shell
+
+### shell笔记
+* [shell常用](https://github.com/hutaoer/my-code/blob/master/notes/shell.md)
+
+### shell代码
+* [调用post_checkout](https://github.com/hutaoer/my-code/blob/master/notes/shell_post_checkout.md)
 
 ### TODO
 * [mac如何配置apache]()

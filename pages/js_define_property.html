@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+<script type="text/javascript">
+'use strict';
+Object.defineProperty(window, "i", {
+    get : function(){ return window.i; },
+    set : function(newValue){ debugger; alert(newValue)},
+    enumerable : true,
+    configurable : true
+});
+i = 3;
+</script>
+</body>
+</html>
