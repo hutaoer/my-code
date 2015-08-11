@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="https://g.alicdn.com/??kissy/k/1.4.2/seed-min.js"></script>
+</head>
+<body>
+    <div>
+        <a href="javascript:;" class="link1">link1_1</a>
+        <a href="javascript:;" class="link1">link1_2</a>
+        <a href="javascript:;" class="link2">link2_1</a>
+        <a href="javascript:;" class="link2">link2_2</a>
+    </div>
+<script type="text/javascript">
+
+
+
+
+
+KISSY.ready(function(S) {
+    var config = {
+        subType: null
+    }
+    S.use('event,node', function(S, Event, Node) {
+        var $ = Node.all;
+
+        function A() {
+
+        }
+        A.prototype = {
+            init: function(cfg) {  
+                console.log(cfg)
+                config = S.merge(config, cfg)
+                this.bind()
+            },
+            bind: function() {
+                var _this = this;
+                $(config.el).on('click', function() {
+                    console.log(config)
+                    console.log($(this).html())
+                })
+            }
+        }
+
+
+        var a1 = new A()
+        a1.init({
+            name: 'a1',
+            el: '.link1'
+        })
+
+        var a2 = new A()
+        a2.init({
+            name: 'a',
+            el: '.link2',
+            subType: 1
+        });
+
+        
+    })
+})
+</script>
+</body>
+</html>
