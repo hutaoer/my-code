@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style type="text/css">
+body {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.item {
+  width: 300px;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+}
+.text {
+  padding-bottom: 20px;
+}
+.item:after{
+  content: '';
+  clear: both;
+  display: block;
+}
+img {
+  float: left;
+  margin-right: 10px;
+}
+.meta {
+  margin-top: -25px;
+  margin-bottom: 10px
+}
+
+#img-1 {
+  height: 120px;
+}
+
+#img-2 {
+  height: 20px;
+}
+
+#img-3 {
+  height: 64px;
+}
+  </style>
+</head>
+<body>
+<div>
+:before和:after的作用就是在指定的元素内容（而不是元素本身）之前或者之后插入一个包含content属性指定内容的行内元素，最基本的用法如下：
+</div>
+<div class="item">
+    <img src="https://cdn.v2ex.co/avatar/02b2/9213/39707_large.png" id="img-1">
+    <div class="text">今天公司有一个 task ，在展示文章列表时，如果某个文章有缩略图，那么 summary 环绕缩略图排布。这是一个非常简单的问题， float:left 完美解决。但是，难点是在 summary 后面要跟着一行 post meta ，显示作者、评论数等等，没有缩略图时， post meta 直接跟着 summary 就可以了，但是，有缩略图时就会略显繁琐，分两种情况</div>
+  </div>
+  <div class="meta">2015年11月6日20:26:55</div>
+
+  <div class="item">
+    <img src="https://cdn.v2ex.co/avatar/02b2/9213/39707_large.png" id="img-2">
+    <div class="text">今天公司有一个 task</div>
+  </div>
+  <div class="meta">2015年11月6日20:26:55</div>
+  
+  
+  <div class="item">
+    <img src="https://cdn.v2ex.co/avatar/02b2/9213/39707_large.png" id="img-3">
+    <div class="text">今天公司有一个 task</div>
+  </div>
+  <div class="meta">2015年11月6日20:26:55</div>
+</body>
+</html>
