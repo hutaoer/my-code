@@ -18,6 +18,7 @@ My commen useful codes and notes
 ## javascript
 * [window.scrollY & window.pageYOffset](https://github.com/hutaoer/my-code/blob/master/notes/scrollY_and_pageYOffset.md)
 * [window.innerHeight](https://github.com/hutaoer/my-code/blob/master/notes/js_innerHeight.md)
+* [根据关键词拆分数组的方法](https://github.com/hutaoer/my-code/blob/master/js/array_split_by_key_words.js)
 
 ### TODO
 * [h5页面键盘呼出问题](https://github.com/hutaoer/my-code/blob/master/notes/h5_keyboard_focus.md)
