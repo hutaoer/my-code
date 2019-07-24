@@ -1,11 +1,14 @@
 # my-code
+* My commen useful codes and notes
 
-My commen useful codes and notes
+## nodejs
+* []
+
 ## css codes
 
 
 ## javascript codes
-
+* txt文件转xml文件: 路径`nodejs/txt2xml.js`
 
 ## css
 * [transition动画，width从10px到100px，方向为从右至左](https://github.com/hutaoer/my-code/blob/master/pages/transition_anim_r2l.html)
