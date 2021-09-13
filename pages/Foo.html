@@ -1,0 +1,36 @@
+<script>
+  function Foo() {
+    Foo.a = function() {
+      console.log(1)
+    }
+    this.a = function() {
+      console.log('实例')
+    }
+  }
+  Foo.a = function() {
+    console.log(2)
+  }
+  Foo.a() // 2
+  var f = new Foo()
+  Foo.a() // 1
+  f.a() // 实例
+
+
+  // function Foo() {
+  //   Foo.a = function () {
+  //     console.log(1);
+  //   };
+  //   this.a = function () {
+  //     console.log(2);
+  //   };
+  // }
+
+  // Foo.prototype.a = function () {
+  //   console.log(3);
+  // };
+  // Foo.a = function () {
+  //   console.log(4);
+  // };
+
+  
+</script>

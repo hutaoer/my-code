@@ -1,0 +1,39 @@
+<input id='ipt'/>
+
+<script>
+  function debounce(fn, time) {
+    let timer = null;
+    return function () {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        fn.apply(this, arguments);
+      }, time);
+    };
+  }
+
+  function throttle(fn, time) {
+    let run = true;
+    return function () {
+      if (!run) return;
+      run = false;
+      fn.apply(this, arguments);
+      setTimeout(() => {
+        run = true;
+      }, time);
+    };
+  }
+
+  // document.querySelector('#ipt').addEventListener('input', 
+  //   debounce((e) => {
+  //     console.log(e.target.value)
+  //   }, 1000)
+  // )
+
+  document.querySelector('#ipt').addEventListener('input', debounce((e) => {
+    console.log(e.target.value)
+  }, 1000)
+  )
+
+  window.addEventListener('resize', throttle(() => {console.log('resize')}, 3000))
+    
+</script>

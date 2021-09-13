@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="s1">s1
+    <div id="s2">s2</div>
+</div>
+<script>
+    
+        
+s1.addEventListener("click",function(e){
+        console.log("s1 捕获事件");
+},true);
+        
+s2.addEventListener("click",function(e){
+        console.log("s2 捕获事件");
+},true);
+s1.addEventListener("click",function(e){
+        console.log("s1 冒泡事件");         
+},false);
+s2.addEventListener("click",function(e){
+        console.log("s2 冒泡事件");
+},false);
+    // 捕获的时候s1,s2顺序
+    // 冒泡的时候s2,s1顺序
+    // 同时存在的时候，先捕获，后target，再到冒泡
+    // 跟事件绑定顺序无关
+</script>
+</body>
+</html>

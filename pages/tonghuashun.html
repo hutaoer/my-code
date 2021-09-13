@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+<script>
+var object = {
+  A:{
+      name: 'aaa',
+      score: 60,
+      time: 'Mon May 16 2016 18:48:34 GMT+0800 (中国标准时间)'
+  },
+  B:{
+      name: 'bbb',
+      score: 50,
+      time: 'Mon May 16 2017 18:48:34 GMT+0800 (中国标准时间)'
+  },
+  C:{
+      name: 'ccc',
+      score: 90,
+      time: 'Mon May 16 2018 18:48:34 GMT+0800 (中国标准时间)'
+  },
+  D:{
+      name: 'ddd',
+      score: 80,
+      time: 'Mon May 16 2014 18:48:34 GMT+0800 (中国标准时间)'
+  },
+  E:{
+      name: 'eee',
+      score: 81,
+      time: 'Mon May 15 2014 18:48:34 GMT+0800 (中国标准时间)'
+  },
+  F:{
+      name: 'fff',
+      score: 81,
+      time: 'Mon May 15 2016 18:48:34 GMT+0800 (中国标准时间)'
+  }
+}
+var arr = Object.keys(object).map(x => object[x]).filter(x => x.score > 60).sort((a, b) => Date.parse(a.time) - Date.parse(b.time))
+console.log(arr)
+</script>
+</html>
