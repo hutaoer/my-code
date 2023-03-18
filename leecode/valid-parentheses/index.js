@@ -1,3 +1,22 @@
+var isValidV2 = (s) => {
+  var stack = []
+  for(let i = 0; i<s.length; i++) {
+    const start = s[i]
+    if(s[i] === '(' || s[i] === '{' || s[i] === '[') {
+      stack.push(s[i])
+    } else {
+      const end = stack[stack.length - 1]
+      if(start === ')' && end === '(' || start === '}' && end === '{' || start === ']' && end === '[') {
+        stack.pop()
+      } else {
+        return false
+      }
+    }
+  }
+  return start.length === 0
+}
+
+
 var isValid = (s) => {
   var leftParentheses = ["{", "(", "["];
   var m = {
