@@ -11,3 +11,16 @@ var removeDuplicates = (s) => {
   }
   return stack.join('')
 }
+
+
+var removeDuplicatesV2 = (s) => {
+  const stack = []
+  for(v of s) {
+    const prev = stack.pop()
+    if(prev !== v) {
+      stack.push(prev)
+      stack.push(v)
+    }
+  }
+  return stack.join('')
+}
