@@ -1,5 +1,7 @@
 # 边框和字体颜色渐变
 
+* border-image 会对整个border生效。所以要针对不同方向的border单独设置，则可以使用伪类来实现。
+
 ```css
 
 .statistics-item {
